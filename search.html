@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <style>
+        .countainer {
+            max-width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section class="countainer">
+            <h1>Поиск автомобиля</h1>
+            <form action="https://fom.in.ua/echo" method="post">
+                <p>
+                    <label>
+                        <span>Тип кузова:</span>
+                        <select name="body">
+                            <option value="none" disabled selected>Выбор</option>
+                            <option value="sedan">Седан</option>
+                            <option value="minivan">Минивен</option>
+                            <option value="suv">Внедорожник</option>
+                            <option value="convertible">Кабриолет</option>
+                            <option value="wagon">Универсал</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span>Марка автомобиля:</span>
+                        <select name="model">
+                            <option value="none" disabled selected>Выбор</option>
+                            <option value="bmw">BMW</option>
+                            <option value="mercedes">Mercedes</option>
+                            <option value="lexus">Lexus</option>
+                            <option value="porsche">Porsche</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span>Страна производитель:</span>
+                        <select name="country">
+                            <option value="none" disabled selected>Выбор</option>
+                            <option value="usa">США</option>
+                            <option value="china">Китай</option>
+                            <option value="germany">Германия</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span>Цена:</span>
+                        <select name="price">
+                            <option value="none" disabled selected>Выбор</option>
+                            <option value="5000">До 5 тысяч долларов</option>
+                            <option value="10000">От 5 до 10 тысяч долланов</option>
+                            <option value="20000">От 10 до 20 тысяч долларов</option>
+                            <option value="20000+">Свыше 20 тысяч долларов</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span>Год выпуска:</span>
+                        <select name="year">
+                            <option value="none" disabled selected>Выбор</option>
+                            <option value="2000">До 2000г</option>
+                            <option value="2010">2000г-2010г</option>
+                            <option value="2015">2010г-2015г</option>
+                            <option value="2020">2020г и новее</option>
+                        </select>
+                    </label>
+                </p>
+                <fieldset>
+                    <legend><strong>Состояние автомобиля</strong></legend>
+                    <p>
+                        <label>
+                            <span>Новая</span>
+                            <input type="checkbox" name="new">
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <span>Битая</span>
+                            <input type="checkbox" name="crashed">
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <span>Б/У</span>
+                            <input type="checkbox" name="used">
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <span>Нерастаможенная</span>
+                            <input type="checkbox" name="Uncleared">
+                        </label>
+                    </p>
+                </fieldset>
+                <p>
+                    <label>
+                        <span>Тип топлива</span>
+                        <select name="fuel">
+                            <option value="none" disabled selected>Выбор</option>
+                            <option value="gasoline">Бензин</option>
+                            <option value="diesel">Дизель</option>
+                            <option value="other">Другое</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <span><strong>Тип коробки передач:</strong></span>
+                    <br>
+                    <label>
+                        <span>Автоматическая</span>
+                        <input type="radio" name="Transmission" value="auto">
+                    </label>
+                    <br>
+                    <label>
+                        <span>Механическая</span>
+                        <input type="radio" name="Transmission" value="mechanical">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span>Цвет:</span>
+                        <input type="color" name="color">
+                    </label>
+                </p>
+                <fieldset>
+                    <legend><strong>Комфорт</strong></legend>
+                    <p>
+                        <label>
+                            <span>Люк</span>
+                            <input type="checkbox" name="sunroof">
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <span>Кожанный салон</span>
+                            <input type="checkbox" name="leather_interior,">
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <span>Стереосистема</span>
+                            <input type="checkbox" name="stereo_system">
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <span>Подсветка</span>
+                            <input type="checkbox" name="lighting">
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <span>Кондиционер</span>
+                            <input type="checkbox" name="air_conditioning">
+                        </label>
+                    </p>
+                </fieldset>
+                <p>
+                <button type="submit">Поиск</button>
+                </p>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
