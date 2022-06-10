@@ -4,18 +4,353 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main file</title>
+    <title>HW4</title>
+    <style>
+body {
+    font-size: 20px;
+    padding: 5rem;
+}
+th, td {
+    padding: 0.25rem;
+}
+table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    text-align: center;
+}
+.pointday {
+    background-color: red;
+    font-weight: 1000;
+}
+.february {
+    margin-bottom: 10%;
+}
+    </style>
 </head>
 <body>
     <div>
-        <h1>Main</h1>
-        <nav>
-            <a href="gallery.html">Images</a>
-        </nav>
-         <h3>Список команд для работы с терминалом</h3>
-         <p>
-             git clone, git push, git commit, git status, git remote, git add
-         </p>
+        <h1>Календарь на 2022 год</h1>
+        <table border="1">
+            <tbody>
+                <tr>
+                    <td>
+                        <table>
+                            <caption>Январь</caption>
+                            <colgroup>
+                                <col span="1" style="background:yellow">
+                                <col>
+                                <col>
+                                <col>
+                                <col>
+                                <col>
+                                <col>
+                                <col>
+                            </colgroup>
+                            <tr>
+                                <td><strong>№ Нед</strong></td>
+                                <td><strong>Пн</strong></td>
+                                <td><strong>Вт</strong></td>
+                                <td><strong>Ср</strong></td>
+                                <td><strong>Чт</strong></td>
+                                <td><strong>Пт</strong></td>
+                                <td><strong>Сб</strong></td>
+                                <td><strong>Вс</strong></td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>1</td>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td>5</td>
+                                <td>6</td>
+                                <td>7</td>
+                                <td>8</td>
+                                <td>9</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>10</td>
+                                <td>11</td>
+                                <td>12</td>
+                                <td>13</td>
+                                <td>14</td>
+                                <td>15</td>
+                                <td>16</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>17</td>
+                                <td>18</td>
+                                <td>19</td>
+                                <td>20</td>
+                                <td>21</td>
+                                <td>22</td>
+                                <td>23</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>24</td>
+                                <td>25</td>
+                                <td>26</td>
+                                <td>27</td>
+                                <td>28</td>
+                                <td>29</td>
+                                <td>30</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>31</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table class="february">
+                            <caption>Февраль</caption>
+                            <colgroup>
+                                <col span="1" style="background:yellow">
+                                <col>
+                                <col>
+                                <col>
+                                <col>
+                                <col>
+                                <col>
+                                <col>
+                            </colgroup>
+                            <tr>
+                                <td><strong>№ Нед</strong></td>
+                                <td><strong>Пн</strong></td>
+                                <td><strong>Вт</strong></td>
+                                <td><strong>Ср</strong></td>
+                                <td><strong>Чт</strong></td>
+                                <td><strong>Пт</strong></td>
+                                <td><strong>Сб</strong></td>
+                                <td><strong>Вс</strong></td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>&nbsp;</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td>5</td>
+                                <td>6</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>7</td>
+                                <td>8</td>
+                                <td>9</td>
+                                <td>10</td>
+                                <td>11</td>
+                                <td>12</td>
+                                <td>13</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>14</td>
+                                <td>15</td>
+                                <td>16</td>
+                                <td>17</td>
+                                <td>18</td>
+                                <td>19</td>
+                                <td>20</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>21</td>
+                                <td>22</td>
+                                <td>23</td>
+                                <td class="pointday">24</td>
+                                <td>25</td>
+                                <td>26</td>
+                                <td>27</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>28</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table>
+                            <caption>Март</caption>
+                            <colgroup>
+                                <col span="1" style="background:yellow">
+                                <col>
+                                <col>
+                                <col>
+                                <col>
+                                <col>
+                                <col>
+                                <col>
+                            </colgroup>
+                            <tr>
+                                <td><strong>№ Нед</strong></td>
+                                <td><strong>Пн</strong></td>
+                                <td><strong>Вт</strong></td>
+                                <td><strong>Ср</strong></td>
+                                <td><strong>Чт</strong></td>
+                                <td><strong>Пт</strong></td>
+                                <td><strong>Сб</strong></td>
+                                <td><strong>Вс</strong></td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>&nbsp;</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td>5</td>
+                                <td>6</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>7</td>
+                                <td>8</td>
+                                <td>9</td>
+                                <td>10</td>
+                                <td>11</td>
+                                <td>12</td>
+                                <td>13</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>14</td>
+                                <td>15</td>
+                                <td>16</td>
+                                <td>17</td>
+                                <td>18</td>
+                                <td>19</td>
+                                <td>20</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>21</td>
+                                <td>22</td>
+                                <td>23</td>
+                                <td>24</td>
+                                <td>25</td>
+                                <td>26</td>
+                                <td>27</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>28</td>
+                                <td>29</td>
+                                <td>30</td>
+                                <td>31</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table>
+                            <caption>Апрель</caption>
+                            <colgroup>
+                                <col span="1" style="background:yellow">
+                                <col>
+                                <col>
+                                <col>
+                                <col>
+                                <col>
+                                <col>
+                                <col>
+                            </colgroup>
+                            <tr>
+                                <td><strong>№ Нед</strong></td>
+                                <td><strong>Пн</strong></td>
+                                <td><strong>Вт</strong></td>
+                                <td><strong>Ср</strong></td>
+                                <td><strong>Чт</strong></td>
+                                <td><strong>Пт</strong></td>
+                                <td><strong>Сб</strong></td>
+                                <td><strong>Вс</strong></td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>4</td>
+                                <td>5</td>
+                                <td>6</td>
+                                <td>7</td>
+                                <td>8</td>
+                                <td>9</td>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>11</td>
+                                <td>12</td>
+                                <td>13</td>
+                                <td>14</td>
+                                <td>15</td>
+                                <td>16</td>
+                                <td>17</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>18</td>
+                                <td>19</td>
+                                <td>20</td>
+                                <td>21</td>
+                                <td>22</td>
+                                <td>23</td>
+                                <td>24</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>25</td>
+                                <td>26</td>
+                                <td>27</td>
+                                <td>28</td>
+                                <td>29</td>
+                                <td>30</td>
+                                <td>&nbsp;</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 </body>
 </html>
