@@ -4,18 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main file</title>
+    <title>DZ_6</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div>
-        <h1>Main</h1>
-        <nav>
-            <a href="gallery.html">Images</a>
-        </nav>
-         <h3>Список команд для работы с терминалом</h3>
-         <p>
-             git clone, git push, git commit, git status, git remote, git add
-         </p>
-    </div>
+    <main>
+        <section>
+            <div>
+                <h1>Селекторы</h1>
+                <p>
+                    <strong>Селекторы</strong> - это группы значений, к которым можно применить свойства CSS.
+                </p>
+                <h3>Виды селекторов</h3>
+                <ul>
+                    <li>Класс (обращение через ".class")</li>
+                    <li>ID (обращение через "#id", каждый id уникальный и не может повторяться)</li>
+                    <li>Тэг (обращение напрямую к тегу (например, "div", "span" и т.д.))</li>
+                    <li>Атрибут (общание через "[ ]")</li>
+                    <li>По нескольким классам (в стилях допускается обращение по нескольким классам к одному и тому же элементу)</li>
+                </ul>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <div>
+                <h2 class="backgroundtitle title">Примеры применения стилей через обращение к разным группам селекторов</h2>
+                <p>
+                    <span>Первый текст</span>
+                </p>
+                <form>
+                    <label>
+                        <input type="text" placeholder="Второй текст">
+                    </label>
+                </form>
+                <div class="double-class">
+                    <p class="third-text">
+                        Третий текст
+                    </p>
+                </div>
+                <p class="fourth-text">Четвертый текст</p>
+                <form>
+                    <label>
+                        <input type="date" id="fifthTextId">
+                    </label>
+                </form>
+                <p>Пятый текст</p>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
