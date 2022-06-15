@@ -1,0 +1,56 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.container {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.card {
+    border: 1px solid orange;
+    border-radius: 10px;
+    float: left;
+    max-width: 400px;
+    padding: 1rem;
+    margin: 10px;
+    min-height: 520px;
+}
+
+.card:hover {
+    box-shadow: 0px 10px 15px 0px red;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 150px;
+    max-width: 100%;
+}
+
+.main-title {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: green;
+}
+
+.secondary-title {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+}
+
+body {
+    background-image: radial-gradient(pink, brown)
+}
+
+.clearfix {
+    clear: both;
+}
