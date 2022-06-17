@@ -1,0 +1,77 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 64px;
+}
+
+body {
+    background-color: grey;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem
+}
+
+section {
+    background-color: #E6E6E6;
+    margin-bottom: 50px;
+}
+
+span {
+    color: white;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.card {
+    border: 1px solid #FC8F8F;
+    background-color: #FC8F8F;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    line-height: 300%;
+}
+
+.card1 {
+    float: left;
+}
+
+.card2 {
+    float: right;
+}
+
+.card3 {
+    float: left;
+}
+
+.card4, .card5, .card6, .card7 {
+    width: 100px;
+    height: 100px;
+    margin-left: 15px;
+    font-size: 36px;
+}
+
+.card8, .card9 {
+    float: left;
+    margin-right: 15px;
+}
+
+.wrapper_2 .card10, .card11 {
+    margin-left: 15px;
+    float: left;
+}
+
+.wrapper .card4, .card5, .card6, .card7 {
+    float: left;
+}
+
+.wrapper {
+    float: right;
+}
+
+.wrapper_2 {
+    float: right;
+}
