@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+}
+
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding: 10px 50px 10px 15px;
+    border: 1px solid orange;
+    background-color: aquamarine;
+    min-width: 200px;
+    list-style-type: none;
+}
+
+.parent {
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 38px;
+    left: 50px;
+    z-index: 1;
+}
+
+.parent:hover > .submenu {
+    display: inline-block;
+}
+
+li:hover {
+    background-color: yellowgreen;
+}
