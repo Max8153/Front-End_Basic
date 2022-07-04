@@ -1,0 +1,613 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'BaiJamjuree', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #F2F1EF;
+}
+
+.container {
+    width: 100%;
+    max-width: calc(1060px + 2rem);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container.wide {
+    max-width: calc(1280px + 2rem);
+}
+
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.button {
+    padding: 10px 25px;
+    border: 1px solid #161513
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.nav_link {
+    color: #161513;
+    font-size: 16px;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+h1 {
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 0.56px;
+    margin-top: 140px;
+}
+
+.under_title {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 35px;
+    margin-bottom: 40px;
+    font-size: 23px;
+    line-height: 32px;
+    flex-wrap: wrap;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 0px;
+}
+
+.black_button {
+    padding: 13px 33px;
+    color: #FFFFFF;
+    border: 1px solid #161513;
+    background-color: #161513;
+}
+
+.white_button {
+    padding: 13px 33px;
+    color: #161513;
+    border: 1px solid #161513;
+    background-color: #F2F1EF;
+}
+
+.main_part {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.image_part {
+    margin-bottom: 120px;
+}
+
+.black_line {
+    max-width: 100%;
+    color: #FFFFFF;
+    background-color: #161513;
+    min-width: calc(100% + 2rem);
+    position: relative;
+    right: 1rem;
+    transform: rotate(-4.93deg);
+}
+
+.black_wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 2rem;
+    line-height: 32px;
+    font-size: 18px;
+}
+
+.black_wrapper_text {
+    display: flex;
+    align-items: center;
+}
+
+.black_wrapper img {
+    padding-left: 15px;
+}
+
+.section_2 {
+    margin-top: 200px;
+}
+
+.Tayler_Barthhold {
+    margin-bottom: 20px;
+    font-size: 23px;
+    line-height: 32px;
+}
+
+.star_logo {
+    padding-left: 8px;
+    padding-right: 6px;
+}
+
+.second_title {
+    max-width: 350px;
+    font-size: 56px;
+    line-height: 64px;
+}
+
+.wrapper {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.right_wrapper {
+    max-width: 600px;
+}
+
+.first_text {
+    font-size: 31px;
+    line-height: 40px;
+    margin-bottom: 35px;
+}
+
+.second_text {
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 27px;
+}
+
+.minicards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.minicard_title {
+    font-size: 12px;
+    line-height: 16px;
+    color: #E94D35;
+    margin-bottom: 10px;
+}
+
+.minicard_text {
+    font-size: 23px;
+    line-height: 32px;
+}
+
+.bottom_wrapper {
+    margin-top: 120px;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.first_card, .second_card, .third_card {
+    border: 1px solid;
+    flex: 1;
+}
+
+.first_card_title, .second_card_title, .third_card_title {
+    font-size: 56px;
+    line-height: 64px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.first_card_text, .second_card_text, .third_card_text {
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.second_card {
+    color: white;
+    background-color: #161513;
+    border-color: #161513;
+}
+
+.section_3 {
+    margin-top: 120px;
+}
+
+.circle_logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.secondary_title {
+    text-align: center;
+    font-size: 45px;
+    line-height: 56px;
+    letter-spacing: 1.44px;
+    margin-bottom: 10px;
+}
+
+.secondary_text {
+    text-align: center;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 1.44px;
+    margin-bottom: 60px;
+}
+
+.section_3_cards {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 120px;
+}
+
+.long_card {
+    display: flex;
+    flex: 1;
+    border: 2px solid;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 35px;
+}
+
+.number {
+    border: 1px solid #E94D35;
+    background-color: #E94D35;
+    padding: 10px 20px;
+    color: white;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.left_part {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+.right_part {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.long_card_title {
+    font-size: 23px;
+    line-height: 34px;
+    letter-spacing: 0.48px;
+}
+
+.long_card_text {
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.long_card_side_text {
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.card {
+    display: flex;
+    flex: 1;
+    gap: 45px;
+    justify-content: space-between;
+}
+
+.card_image {
+    max-width: 460px;
+}
+
+.card_description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.card_title {
+    background-color: #E94D35;
+    border: 1px solid #E94D35;
+    color: white;
+    padding: 5px 10px;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 1.44px;
+    margin-bottom: 30px;
+    max-width: max-content;
+
+}
+
+.card_text_description {
+    font-size: 45px;
+    line-height: 56px;
+    letter-spacing: 1.44px;
+    margin-bottom: 50px;
+}
+
+.card_link {
+    font-size: 20px;
+    line-height: 32px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.section_4_cards {
+    display: flex;
+    flex-direction: column;
+    gap: 95px;
+    margin-bottom: 120px;
+}
+
+.card_2, .card_4 {
+    flex-direction: row-reverse;
+}
+
+.card_3 {
+    display: flex;
+    flex: 1;
+    gap: 45px;
+    justify-content: flex-start;
+}
+
+.section_5_cards {
+    display: flex;
+    flex: 1;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 160px;
+}
+
+.simple_card_title {
+    font-size: 31px;
+    line-height: 40px;
+    letter-spacing: 0.64px;
+}
+
+.simple_card_text {
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 30px;
+}
+
+.simple_card {
+    max-width: 510px;
+    padding: 35px 50px 30px 35px;
+    border: 1px solid;
+}
+
+.secondary_title_section_5 {
+    text-align: center;
+    font-size: 45px;
+    line-height: 56px;
+    letter-spacing: 1.44px;
+    margin-bottom: 60px;
+}
+
+.section_6_cards {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.logo_card {
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    max-width: 240px;
+}
+
+.Tribal_card {
+    padding: 40px 85px;
+}
+
+.Rpublica_card {
+    padding: 40px 60px;
+}
+
+.Veroxfloor_card {
+    padding: 40px 70px;
+}
+
+.Invoice2go_card {
+    padding: 40px 70px;
+}
+
+.section_6 {
+    margin-bottom: 125px;
+}
+
+.secondary_title_section_7 {
+    text-align: center;
+    font-size: 45px;
+    line-height: 56px;
+    letter-spacing: 1.44px;
+    margin-bottom: 25px;
+}
+
+.secondary_text_section_7 {
+    text-align: center;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 1.44px;
+    margin-bottom: 95px;
+}
+
+.last_card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #000000;
+    padding: 5px 50px 10px 35px;
+}
+
+.last_card_right_text {
+    justify-content: flex-start;
+    max-width: 457px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.last_card_title {
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 1.28px;
+    color: #E94D35;
+}
+
+.last_card_text {
+    font-size: 23px;
+    line-height: 32px;
+    letter-spacing: 0.48px;
+}
+
+.last_2card_text {
+    max-width: 400px;
+    font-size: 24px;
+}
+
+.section_7 {
+    position: relative;
+}
+
+.section_7_cards {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-bottom: 95px;
+}
+
+.bottom_nav {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #000000;
+    background-color: #000000;
+    margin-bottom: 135px;
+}
+
+.bottom_nav_link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.card_near_logo {
+    position: relative;
+}
+
+.big_logo {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.section_8 {
+    background-color: #E6E3DE;
+}
+
+.email_form {
+    background-color: #E6E3DE;
+    border: 2px solid;
+    font-size: 23px;
+    line-height: 32px;
+    letter-spacing: 0.48px;
+    padding: 10px 20px;
+}
+
+.subscribe_button {
+    color: white;
+    background-color: black;
+    padding: 10px 15px;
+    font-size: 23px;
+    line-height: 32px;
+    letter-spacing: 0.48px;
+    margin-left: 20px;
+}
+
+.subscribe_button:hover {
+    cursor: pointer;
+}
+
+.section_before_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 175px;
+    font-size: 23px;
+    line-height: 32px;
+    letter-spacing: 0.48px;
+}
+
+.footer {
+    background-color: #161513;
+    min-height: 220px;
+}
+
+.footer_part {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding-top: 75px;
+    padding-bottom: 65px;
+}
+
+.footer_nav_link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.footer_nav {
+    display: flex;
+    gap: 45px;
+}
+
+.bottom_footer_part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 35px;
+}
+
+.made_by {
+    font-size: 14px;
+    line-height: 24px;
+    color: #F2F1EF;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+.social_link {
+    border: 1px solid #969186;
+    border-radius: 24px;
+    padding: 12px 15px;
+}
